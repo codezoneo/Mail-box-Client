@@ -2,6 +2,7 @@ import { Grid } from '@mui/material'
 import React from 'react'
 import Navbar from './Navbar';
 import LeftPanel from "./Leftpanel";
+import Middle from './Middle';
 
 
 function Main() {
@@ -13,6 +14,9 @@ function Main() {
         </Grid>
         <Grid item xs={2}>
           <LeftPanel />
+        </Grid>
+        <Grid item xs={1}>
+          <Middle />
         </Grid>
       </Grid>
     </div>

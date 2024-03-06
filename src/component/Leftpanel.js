@@ -16,6 +16,7 @@ const LeftPanel = ()=>{
     >
       <div
         style={{
+            height:"4.66vw",
           marginLeft: "1vw",
           width: "12vw",
           display: "flex",

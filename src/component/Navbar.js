@@ -44,7 +44,6 @@ export default function Navbar() {
                   alignItems: "center",
                   borderRadius: "40px",
                   backgroundColor: "#E4EFFA",
-                  
                 }}
               >
                 <img
